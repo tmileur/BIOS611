@@ -1,0 +1,1 @@
+docker run --platform linux/amd64 --rm -ti -e PASSWORD=yourpassword -v $(pwd):/home/rstudio/work -p 8787:8787 rocker/verse
